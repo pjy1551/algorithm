@@ -13,7 +13,6 @@ public class Backjoon2438 {
 			System.out.println();
 		}
 		
-
 	}
 
 }
