@@ -14,6 +14,6 @@ public class Backjoon1152 {
         }
         System.out.println(count);
 
-	}
+    }
 
 }
