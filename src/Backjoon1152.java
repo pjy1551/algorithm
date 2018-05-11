@@ -10,7 +10,7 @@ public class Backjoon1152 {
         for (String result : worlds) {
             count++;
             if (result.equals(""))
-                count--; 
+                count--;
         }
         System.out.println(count);
 
