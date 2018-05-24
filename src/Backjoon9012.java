@@ -24,8 +24,7 @@ public class Backjoon9012 {
                 System.out.println("YES");
             }
             a++;
-            if(count == a) break;
-
+            if(count == a) break; 
         }
 
     }
