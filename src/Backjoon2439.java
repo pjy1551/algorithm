@@ -1,22 +1,17 @@
-
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Backjoon2439 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        for(int i = input; i >= 1; i--) {
-            for(int j = 1; j <= input; j++) {
-                if(j < i ) {
-                    System.out.print(" ");
-                }
-                else {
-                    System.out.print("*");
-                }
+
+        int a = sc.nextInt();
+        for (int i = a; i > 0; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
+
     }
 }
