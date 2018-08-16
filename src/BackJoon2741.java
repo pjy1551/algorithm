@@ -9,7 +9,6 @@ public class BackJoon2741 {
         for (int i = 1; i <= a; i++) {
             System.out.println(i);
         }
-
     }
 
 }
