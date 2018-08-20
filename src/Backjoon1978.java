@@ -38,8 +38,6 @@ public class Backjoon1978 {
                 result = list.get(list.size()-1) == input ? true : false;  
             }
         }
-        
         return result;
     }
-
 }
