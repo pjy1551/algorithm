@@ -20,8 +20,6 @@ public class Backjoon1912 {
             result = Math.max(result, dp[i]);
         }
         System.out.println(result);
-        
-        
     }
 
 }
